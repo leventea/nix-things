@@ -7,7 +7,6 @@ pkgs.stdenv.mkDerivation rec {
   name = "Etterna";
   version = "0.70.3";
 
-
   hardeningDisable = [ "format" ];
 
   src = pkgs.fetchFromGitHub {
